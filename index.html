@@ -18,7 +18,19 @@
             ke sath ek fyt me jane ke liye <br />
             muje maaf kar dijiye please
           </p>
-          <a href="new.html">Click here</a>
+          <script>
+    // Create a new button element
+    const button = document.createElement("button");
+    button.textContent = "Go to OpenAI";
+
+    // Set the button to open a link when clicked
+    button.onclick = function() {
+        window.location.href = "new.html";
+    };
+
+    // Add the button to a container div
+    document.getElementById("button-container").appendChild(button);
+          </script>
         </div>
       </div>
       <div class="front"></div>
